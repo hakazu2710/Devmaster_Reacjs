@@ -17,5 +17,3 @@ export default function FuncComp1({ name, company }: Props) {
     </div>
   );
 }
-
-///////////////////
