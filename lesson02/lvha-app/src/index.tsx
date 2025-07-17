@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Func_link from "./components/Func_link";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
