@@ -8,6 +8,9 @@ import ExampleContext from "./component/ExampleContext";
 import PostList from "./component/PostList";
 import Counter from "./component/Counter";
 import Lab5 from "./component/Lab5";
+import Lab1 from "./component/Lab1";
+import InputFocus from "./component/InputFocus";
+import ConfirmExit from "./component/ConfirmExit";
 
 function App() {
   return (
@@ -25,8 +28,12 @@ function App() {
       <hr />
       <PostList />
 
+      <Lab1 />
+
+      <InputFocus />
       <Counter />
       <Lab5 />
+      <ConfirmExit />
     </div>
   );
 }
